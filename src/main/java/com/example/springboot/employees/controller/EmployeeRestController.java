@@ -35,6 +35,7 @@ public class EmployeeRestController {
     @ResponseStatus(HttpStatus.OK)
     @GetMapping("/{id}")
     public Employee getEmployee(@PathVariable @Min(value = 1) long id) {
+
         return employeeService.findById(id);
     }
 

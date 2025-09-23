@@ -1,0 +1,21 @@
+# Maven build output
+/target
+
+# IDE/project files
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# VCS
+.git
+.gitignore
+
+# OS files
+.DS_Store
+
+# Local data (do not copy DB files into image)
+/data/
